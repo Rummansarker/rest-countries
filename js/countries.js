@@ -14,7 +14,7 @@ const displayCountries = countries => {
 
 const showAllCountries = country => {
   return `
-    <div>
+    <div class="country">
       <h3>${country.name.common}</h3>
       <img src = ${country.flags.png}>
     </div>
